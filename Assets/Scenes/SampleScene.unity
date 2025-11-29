@@ -473,6 +473,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &718332929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8325377186481743747, guid: 8a2bc148a0beaad4cb499e400e12d179, type: 3}
+  m_PrefabInstance: {fileID: 8135620257889683420}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +583,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8277dd2be1486764aba2aa4a3f4ca788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: {x: 0, y: 0, z: 0}
+  target: {fileID: 718332929}
+  rotationSpeed: 5
+  zoomSpeed: 5
+  minDistance: 2
+  maxDistance: 20
+  minPitch: -30
+  maxPitch: 60
+  invertY: 0
 --- !u!1 &1109288076
 GameObject:
   m_ObjectHideFlags: 0
