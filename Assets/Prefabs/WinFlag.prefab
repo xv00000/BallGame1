@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3426178090384680807}
   - component: {fileID: 7203925935625064875}
   - component: {fileID: 2536419908951692969}
+  - component: {fileID: 7154335868490212228}
   m_Layer: 0
   m_Name: WinFlag
   m_TagString: Untagged
@@ -99,9 +100,21 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7154335868490212228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529810361382778795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3837e48e0433f824ab974cd47374e443, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
