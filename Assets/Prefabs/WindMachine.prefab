@@ -118,3 +118,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48f688e8d3fd9e40873a084bff7764c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  force: 20
+  range: 5
+  coneAngle: 30
+  isActiveAndEnabled: 0
+  drawGizmos: 1
+  gizmoFillColor: {r: 0.2, g: 0.6, b: 1, a: 0.12}
+  gizmoEdgeColor: {r: 0.2, g: 0.6, b: 1, a: 0.9}
